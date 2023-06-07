@@ -1,5 +1,4 @@
 /*  your css code here. If applicable */
-/*  your css code here. If applicable */
  /* div{
     width:40px;
     height:40px;
@@ -9,39 +8,31 @@
 /*     padding:40px; */
 /*     border:40px solid #00247D; */
 /* } */
-#outer{
-    position: relative;
-    top:5px;
-	border:300px solid #ff0000;
-	border-radius: 50%;
-}
+#outer {
+    background-color: #ff0000;
+    width:300px; /* You can define it by % also */
+    height:300px; /* You can define it by % also */
+    position:relative;
+    border:1px solid  #ff0000;
+    border-radius: 50%;
+    }
 #middle{
+    background-color: #ffa500;
+    top: 14%;
+    left: 13%;
+    width: 73%;
+    height: 72%;
     position: relative;
-    top:-100px;
-	border:250px solid #ffa500;
-	border-radius: 50%;
-}
-#inner{
+    border: 1px solid #ffa500;
+    border-radius: 50%;
+        }
+ #inner{
+    background-color: #ffff00;
+    top: 14%;
+    left: 13%;
+    width: 73%;
+    height: 72%;
     position: relative;
-    top:-100px;
-	border:200px solid #ffff00;
-	border-radius:50%;
-}
-#inner-4{
-    position: relative;
-    top:-100px;
-	border:150px solid #008000;
-	border-radius: 50%;
-}
-#inner-5{
-    position: relative;
-    top:-100px;
-	border:100px solid #0000ff;
-	border-radius: 50%;
-}
-#inner-6{
-    position: relative;
-    top:-100px;
-	border:50px solid #800080;
-	border-radius:50%;
-}
+    border: 1px solid #ffa500;
+    border-radius: 50%;
+} 
